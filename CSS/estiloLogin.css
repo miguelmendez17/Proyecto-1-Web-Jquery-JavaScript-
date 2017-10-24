@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+body {
+    background: #eee url(http://subtlepatterns.com/patterns/sativa.png);
+    font-family: "Lato" ;
+}
+.wrap {
+    width:250px;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+}
+.avatar {
+    width: 100%;
+    margin: auto;
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+    background: #448ed3 ;
+    position: relative;
+    bottom: -15px;
+}
+.avatar img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    margin: auto;
+    border:3px solid #fff;
+    display: block;
+}
+.wrap input {
+    border: none;
+    background: #fff;
+  font-family:Lato ;
+  font-weight:700 ;
+    display: block;
+    height: 40px;
+    outline: none;
+    width: calc(100% - 24px) ;
+    margin: auto;
+    padding: 6px 12px 6px 12px;
+}
+.bar {
+    width: 100%;
+    height: 1px;
+    background: #fff ;
+}
+.bar i {
+    width: 95%;
+    margin: auto;
+    height: 1px ;
+    display: block;
+    background: #d1d1d1;
+}
+.wrap input[type="text"] {
+    border-radius: 7px 7px 0px 0px ;
+}
+.wrap input[type="password"] {
+    border-radius: 0px 0px 7px 7px ;
+}
+.forgot_link {
+    color: #83afdf ;
+    color: #83afdf;
+    text-decoration: none;
+    font-size: 11px;
+    position: relative;
+    left: 193px;
+    top: -36px;
+}
+.wrap #botonLogin{
+    width: 100%;
+    border-radius: 7px;
+    background: #b6ee65;
+    text-decoration: center;
+    border: none;
+    color: #51771a;
+    margin-top:-5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: none;
+    font-size: 13px;    
+    border-bottom: 3px solid #307d63;
+    cursor: pointer;
+}
+
+.wrap #botonRegistrarse{
+    width: 100%;
+    border-radius: 7px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: center;
+    border: none;
+    margin-top:-5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: none;
+    font-size: 13px;    
+    border-bottom: 3px solid #307d63;
+    cursor: pointer;
+}
+
+
+
+.registro{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
